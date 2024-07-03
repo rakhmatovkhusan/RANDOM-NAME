@@ -1,4 +1,4 @@
-let names = ['HUSAN', 'UMIDJON', 'BOBURXOJA', 'SHAHZOD', 'BEHRUZ', 'MUHIDDIN', 'JAVOHIR', 'MUHAMMAD', 'BOBURMIRZO', 'NODIRBEK', 'ABDULVOJID']
+let names = ['HUSAN', 'UMIDJON', 'BOBURXOJA', 'SHAHZOD', 'BEHRUZ', 'MUHIDDIN', 'JAVOHIR', 'MUHAMMAD', 'BOBURMIRZO', 'NODIRBEK',]
 let spin = document.querySelector(".spin");
 let h1 = document.querySelector(".h1");
 
