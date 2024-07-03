@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://www.shutterstock.com/shutterstock/videos/1054552079/thumb/1.jpg?ip=x480);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.black_wrapper_div{
+    width: 60%;
+    height: 600px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    background:  url(https://storage.prompt-hunt.workers.dev/clg1xqeyl000gkx07z3ki2prf_1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name_in{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    background-color: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    justify-content: center;
+    border-radius: 50px;
+    
+}
+
+.name_container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background:url(https://t3.ftcdn.net/jpg/06/69/83/92/360_F_669839250_ugg3ALkfWC7JrUZtKJRc00HRJkCK0YDx.jpg);
+    background-color: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border: none;
+    border-radius: 50px;
+}
+
+button{
+    width: 190px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    transition: 0.1s;
+}
+
+button:hover{
+    transform: scale(1.03);
+    transition: 0.1s;
+}
